@@ -130,7 +130,7 @@ const Weather = () => {
       </Button>
 
       {!loading && forecastData && (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} display={"flex"} flexWrap={"nowrap"} >
           {forecastData.list.map((item, index) => (
             <Grid item key={index}>
               <Card
@@ -138,6 +138,7 @@ const Weather = () => {
                   margin: "20px",
                   width: "16vw",
                   backgroundColor: "rgba(255, 255, 255, 0.5)",
+                  flexWrap: "nowrap !important"
                 }}
               >
                 <CardContent>
