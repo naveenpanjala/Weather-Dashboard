@@ -135,9 +135,8 @@ const Weather = () => {
             <Grid item key={index}>
               <Card
                 style={{
-                  margin: "30px",
-                  width: "15vw",
-                  height: "18vh",
+                  margin: "20px",
+                  width: "16vw",
                   backgroundColor: "rgba(255, 255, 255, 0.5)",
                 }}
               >
